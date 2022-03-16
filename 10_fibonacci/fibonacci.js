@@ -4,6 +4,7 @@ const fibonacci = function () {
     x = i + j;
     if (arguments[0] - 2 == k) return i + j;
   }
+  return 1;
 };
 
 // Do not edit below this line
