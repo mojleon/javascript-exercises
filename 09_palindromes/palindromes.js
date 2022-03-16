@@ -3,9 +3,7 @@ const palindromes = function () {
   string = string.replace(/\W/g, "");
   let subString = string.substring(0, string.length / 2);
 
-  console.log(string);
   for (let c = 0; c <= subString.length / 2; c++) {
-    console.log(subString[c], string[string.length - 1 - c]);
     if (subString[c] == string[string.length - 1 - c]) continue;
     return false;
   }
